@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href='./style.css' rel='stylesheet' type='text/css'>
     <title>Test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 </head>
 <body>
     <div class='header' id='header-div'> 
@@ -20,6 +23,12 @@
     </div>
 </body>
 <script src='./scripts.js'>
-    
+</script>
+
+<script>   
+    $(document).ready(function(){
+        $('#change').hide(1000).show(1000).css({color:'red'});
+       
+    });
 </script>
 </html>
